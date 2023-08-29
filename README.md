@@ -1,4 +1,4 @@
-# leaflet_challenge
+# Seismic Explorer: A Web-Based Earthquake Mapping Tool
 Module 15 Challenge
 
 Overview
@@ -15,6 +15,7 @@ This CSS file contains styling rules for the website. It sets the padding, margi
 This JavaScript file contains the logic for initializing the Leaflet map, adding a tile layer, and fetching earthquake data from a remote URL. The earthquake data is then iterated through to extract relevant properties.
 
 How to Run
+
 Place all three files in the same directory.
 Open index.html in a modern web browser.
 The map with earthquake data should be displayed.
