@@ -21,6 +21,34 @@
     <!-- The div that holds our map -->
     <div id="map"></div>
 
+    <div id="infoModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Earthquake Depth Information</h2>
+        <p>
+          Shallow Earthquakes (0-70 km deep) Intensity: Shallow earthquakes
+          often produce stronger shaking near the epicenter compared to deep
+          earthquakes of similar magnitude. Damage: They are generally more
+          destructive in terms of structural damage, landslides, and tsunamis.
+          Area Affected: The area of strong shaking is usually more localized.
+        </p>
+        <p>
+          Intermediate-depth Earthquakes (70-300 km deep) Intensity: The shaking
+          is generally less intense near the surface than it is for shallow
+          earthquakes. Damage: They usually cause less damage to structures near
+          the surface. Area Affected: The area of strong shaking can be more
+          widespread, affecting regions farther from the epicenter.
+        </p>
+        <p>
+          Deep Earthquakes (300-700 km deep) Intensity: These earthquakes
+          typically produce the least amount of shaking near the Earth's
+          surface. Damage: They are the least likely to cause significant damage
+          or tsunamis. Area Affected: The shaking can be felt over a large area,
+          but it's generally not strong enough to cause damage.
+        </p>
+      </div>
+    </div>
+
     <!-- Leaflet JS -->
     <script
       src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
